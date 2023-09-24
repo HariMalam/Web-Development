@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #F0EFEF;
+}
+
+.main{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.head{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 4px solid black;
+    margin-bottom: 30px;
+}
+
+.head h1{
+    font-size: 30px;
+}
+
+.top img{
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+h2{
+    padding: 2px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.photo{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 15%;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+}
+
+.photo img{
+    width: 100%;
+    height: auto;
+}
+
+.personal_details{
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    width: 78%;
+    width: 38%;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.personal_details table{
+    width: 700px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.personal_details td{
+    padding: 2px;
+}
+
+.education_details{
+    background-color: white;
+    width: 35%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: auto;
+}
+
+.education_details table{
+    width: 500px;
+    height: 80%;
+    text-align: center;
+    margin-left: 4px;
+    border-collapse: collapse;
+    border-color: #bcbcbc;
+}
+
+.skills{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: auto;
+}
+.skills table{
+    padding: 10px;
+    width: 250px;
+    text-align: left;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience{
+    background-color: white;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    margin-bottom: 30px;
+
+}
+.experience table{
+    background-color: white;
+    height: 80%;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    border-color: #bcbcbc;
+}
+
+.declaration{
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.declaration img{
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 1470px){
+    .main{
+        margin: 20px;
+    }
+    .personal_details table{
+        width: 600px;
+        padding: 0;
+        margin: 0;
+    }
+    .personal_details{
+        width: 70%;
+        padding: 10px;
+        margin: 0;
+    }
+    .photo{
+        margin: 0;
+        width: auto;
+        padding: 10px;
+    }
+
+    .education_details{
+        width: 100%;
+        margin: 0;
+        margin-top: 40px;
+    }
+    .education_details table{ 
+        width: 100%;
+    }
+
+    .skills{
+        width: 100%;
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .experience{
+        width: 100%;
+        margin: 0;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 965px){
+    *{
+        font-size: 10px;
+    }
+    .personal_details table{
+        width: 100%;
+        height: auto;
+    }
+    .personal_details{
+        width: 60%;
+        height: 125px;
+        margin-left: 5px;
+        margin: 5px;
+    }
+    .personal_details td{
+        padding: 0px;
+    }
+    .main{
+        margin: 5px;
+    }
+    .head h1{
+        font-size: 15px;
+    }
+    .head{
+        border: 2px solid black;
+        margin: 10px;
+    }
+    .photo{
+        width: 25%;
+        height: 125px;
+        margin: 5px;
+        margin-right: 0px;
+    }
+    .photo img{
+        width: 100px;
+        height: auto;
+    }
+    .top h2{
+        font-size: 10px;
+        margin: 0;
+    }
+    .top img{
+        height: 20px;
+        width: 20px;
+        padding: 2px;
+        padding-right: 10px;
+    }
+    .top{
+        display: flex;
+        padding: 0;
+        align-items: center;
+    }
+
+    .skills{
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+    .skills table{
+        width: auto;
+    }
+
+    th img{
+        width: 20px;
+    }
+    .education_details{
+        height: auto;
+        margin: 10px;
+    }
+    .education_details table{
+        height: auto;
+    }
+    .experience{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+    .experience table{
+        width: 100%;
+        height: auto;
+    }
+
+    .declaration{
+        margin: 10px;
+    }
+    .sing{
+        width: 80px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 393px){
+    .photo{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .photo img{
+        width: 30%;
+        border-radius: 10px;
+        height: auto;
+    }
+
+    .personal_details table{
+        width: 100%;
+    }
+
+    .personal_details{
+        width: 100%;
+        height: 160px;
+        margin: 10px;
+    }
+    .personal_details td{
+        padding: 0px;
+    }
+}
